@@ -1,0 +1,73 @@
+/*Made by: Sonny Chen*/
+/*main format for the website*/
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    width: auto;
+    max-width: 2000px;  /*This made the website have a max width because some people have very wide screens*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Header and logo*/
+header {
+    background-color: #C6DABF;  /*Changes the background color*/
+    position: relative;
+    padding: 10px;
+}
+
+header h1 {
+    padding-left: 225px;
+    padding-top: 30px;
+}
+
+#logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/*Navigation bar*/
+nav {
+    list-style-type:  none;
+    padding-left: 100px
+}
+
+nav ul li {
+    display: inline-block;  /*Make the nav inline so they are horizontal*/
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #88d498;  /*Chenges the color of the box so the user can see what they are hovering over*/
+    color: white;   /*Changes the color of the text when mouse is hovering*/
+}
+
+/*main and body formatting*/
+body {
+    background-color: #F3E9D2
+}
+
+main {
+    text-align: center; /*aligns my main section of the website to the center*/
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px
+}
+
+/*For the footer*/
+footer {
+    background-color: #C6DABF;
+    padding: 25px;
+    padding-left: 50px;
+    text-align: left;
+}
